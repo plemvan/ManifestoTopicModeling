@@ -3,8 +3,7 @@
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)
 ![NLP](https://img.shields.io/badge/NLP-Topic_Modeling-orange.svg)
 ![Format](https://img.shields.io/badge/Paper-NeurIPS-b31b1b.svg)
-![Status](https://img.shields.io/badge/status-Active-success.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 
 This repository contains the code, data preprocessing pipeline, and analysis for the scientific report on the **Archelec Corpus**, exploring the correlation between themes in French political manifestos and real-world economic indicators. 
 
