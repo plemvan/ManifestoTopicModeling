@@ -4,7 +4,7 @@
 ![NLP](https://img.shields.io/badge/NLP-Topic_Modeling-orange.svg)
 ![Format](https://img.shields.io/badge/Paper-NeurIPS-b31b1b.svg)
 
-This repository contains the code, data preprocessing pipeline, and analysis for the scientific report on the **Archelec Corpus**, exploring the correlation between themes in French political manifestos and real-world economic indicators across three major election years (1981, 1988, and 1993). 
+This repository contains the code, data preprocessing pipeline, and analysis for the scientific report on the **Archelec Corpus**, exploring the correlation between themes in French political manifestos and real-world economic indicators across three major legislative election years (1981, 1988, and 1993). 
 
 ## Project Overview
 The primary research question addressed in this project is: *Do the themes present in electoral manifestos reflect the actual economic situation of a local department, or are they strictly dictated by national party lines?*
