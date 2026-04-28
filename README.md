@@ -13,7 +13,7 @@ By leveraging Natural Language Processing (NLP) techniques, this project extract
 
 ## Data Sources
 1. **Archelec Corpus:** - Transcriptions (OCR): Extracted from the [Arkindex repository](https://gitlab.teklia.com/ckermorvant/arkindex_archelec).
-   - Metadata: Downloaded from the Sciences Po Archelec explorer (contains `titulaire-soutien`, `departement-insee`, dates).
+   - Metadata: Downloaded from the Sciences Po Archelec explorer.
 2. **INSEE Data:** Historical departmental unemployment rates (T1-T4 averages) corresponding to the targeted election years.
 
 ## Methodology
@@ -29,12 +29,12 @@ To accurately capture the macroeconomic reality within political discourse, I st
 ## Repository Structure
 ```text
 ├── data/
-│   ├── raw/             # Raw OCR text files and original CSVs (Not tracked by Git)
+│   ├── raw/             # Raw OCR text files and original CSVs
 │   ├── processed/       # Cleaned datasets ready for modeling
 │   └── external/        # INSEE economic datasets
 ├── notebooks/           # Jupyter notebooks for data exploration, ground-truthing, and visualization
-├── src/                 # Python scripts for the NLP pipeline (BERTopic, Lexical, Zero-Shot NLI) and plotting
-├── paper/               # LaTeX source files and the final PDF report (NeurIPS format)
-├── .gitignore           # Excludes __pycache__, raw data, and environment variables
-├── requirements.txt     # Python dependencies (pandas, seaborn, bertopic, geopandas, etc.)
+├── src/                 # Python scripts for the NLP pipeline
+├── paper/               # Final PDF report
+├── .gitignore           
+├── requirements.txt    
 └── README.md
